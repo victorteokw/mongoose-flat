@@ -1,0 +1,29 @@
+{
+  "name": "mongoose-flat",
+  "version": "0.0.1",
+  "description": "Flatten user input according to mongoose schema.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangkaiyulw/mongoose-flat.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangkaiyulw/mongoose-flat/issues"
+  },
+  "homepage": "https://github.com/zhangkaiyulw/mongoose-flat#readme",
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-man": "^1.0.2",
+    "mongoose": "^5.2.5"
+  },
+  "peerDependencies": {
+    "mongoose": ">=4.4.0"
+  },
+  "dependencies": {
+    "is-plain-object": "^2.0.4"
+  }
+}
