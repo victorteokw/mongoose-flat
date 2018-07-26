@@ -1,6 +1,6 @@
 {
   "name": "mongoose-flat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Flatten user input according to mongoose schema.",
   "main": "index.js",
   "scripts": {
