@@ -17,7 +17,7 @@ const flat = (input, modelOrSchema) => {
     let retval = baseObj;
     while (path.length) {
       const key = path.shift();
-      retval = baseObj[key];
+      retval = retval[key];
     }
     return retval;
   };
